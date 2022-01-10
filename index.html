@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/app.js" defer> type= "module" </script>
+    <title>Game of Golf</title>
+</head>
+<body>
+
+  <div> 
+    <div class="background-image"></div>
+    <div class="computer_card_slot"></div>
+    <div class="card red" data-value="9"> 
+        ♦
+    </div>
+    <div class="text"> PLAYER 1</div>
+    <div class="text2"> PLAYER 2</div>
+    <div class="player_card_slot"></div>
+    <div class="game_card_slot"></div>
+    <button id="Restart" class="Restart">Restart</button>
+      </div>
+          <div class="cardtable">
+            <div class="tableSections">
+              <div>
+                <div class="computer_hand"></div>
+                <div class="computer_hand"></div>
+                <div class="computer_hand2"></div>
+                <div class="computer_hand2"></div>
+              </div>
+              <div>
+                <div class="computer_hand"></div>
+                <div class="computer_hand"></div>
+            </div>
+
+            </div>  
+            <div class="tableSections">
+                <div class="game_deck">Draw</div>
+                <div class="empty_spot"></div>
+              </div>  
+              <div class="tableSections">
+                    <div class="player_hand"></div>
+                    <div class="player_hand"></div>
+                <div>
+                    <div class="player_hand"></div>
+                    <div class="player_hand"></div>
+                </div>
+              </div>  
+          </div>
+          <button id="call_game" class="call_game">Call Game</button> 
+      
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+    .backgroung-image {
+        background-image: url('https://gothammag.com/get/files/image/galleries/golf-obi-onyeador-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: 100vh;
+        height: 100vh;
+    }
+</style>
+</html>

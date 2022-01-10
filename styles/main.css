@@ -1,0 +1,101 @@
+* ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://gothammag.com/get/files/image/galleries/golf-obi-onyeador-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 4rem);
+    grid-template-rows: 7rem 2rem 7rem;
+    gap: .5rem;
+    cursor: pointer;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.text {
+    margin-left: 11rem;
+    margin-top: 1rem;
+}
+.text2 {
+    margin-left: 28rem;
+    margin-top: -2rem;
+}
+
+.game_deck {
+    max-height: 55%;
+    height: 95px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    user-select: none; 
+}
+
+.computer_hand, .player_hand, .empty_spot {
+    max-height: 55%;
+    height: 95px;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 5px;
+    color: white;
+    user-select: none; 
+}
+
+.computer_hand {
+    background-color: red;
+    margin-bottom: 30px;
+
+}
+
+.player_hand {
+    background-color: blue;
+    margin-bottom: 30px;
+}
+
+.game_deck {
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.empty_spot {
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.text {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtable {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 80px;
+}
+
+.tableSections {
+    height: 300px;
+    width: 100px;
+}
+.call_game {
+
+}
